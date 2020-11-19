@@ -1,0 +1,53 @@
+.baseball-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Scoreboard Scoreboard Scoreboard Details"
+    "Teams Main Main PlayByPlay"
+    "Teams Main Main PlayByPlay"
+    "Teams Main Main Stats"
+    "Teams Main Main Stats"
+    "Teams Main Main Stats"
+    "Teams Main Main Stats"
+    "Reserved Reserved Reserved Reserved";
+}
+
+.Scoreboard { grid-area: Scoreboard; }
+
+.Details { grid-area: Details; }
+
+.Teams { grid-area: Teams; }
+
+.Main { grid-area: Main; }
+
+.PlayByPlay { grid-area: PlayByPlay; }
+
+.Stats { grid-area: Stats; }
+
+/* .Reserved { grid-area: Reserved; } */
+
+.border {
+  border: 1px solid black;
+}
+
+
+
+
+/* .baseball-layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.Scoreboard { grid-area: 1 / 1 / 2 / 4; }
+.Details { grid-area: 1 / 4 / 2 / 5; }
+.Teams { grid-area: 2 / 1 / 8 / 2; }
+.Main { grid-area: 2 / 2 / 8 / 4; }
+.PlayByPlay { grid-area: 2 / 4 / 4 / 5; }
+.Stats { grid-area: 4 / 4 / 8 / 5; }
+.Reserved { grid-area: 8 / 1 / 9 / 5; } */
+
