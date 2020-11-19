@@ -1,8 +1,10 @@
-import Baseball from "./components/Baseball"
+import Baseball from "./components/baseball/Baseball"
+import Nav from "./components/nav/Nav"
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Nav />
       <Baseball />
     </div>
   );
