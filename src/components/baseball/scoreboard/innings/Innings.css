@@ -1,0 +1,8 @@
+.innings-layout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+}

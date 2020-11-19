@@ -11,10 +11,10 @@ class Scoreboard extends Component {
   render() {
     return (
       <div className="scoreboard-layout">
-        <div className="border TeamNames"><TeamNames /></div>
-        <div className="border Innings"><Innings /></div>
-        <div className="border RHE"><RHE /></div>
-        <div className="border Info"><Info /></div>
+        <div className="TeamNames"><TeamNames /></div>
+        <div className="Innings"><Innings /></div>
+        <div className="RHE"><RHE /></div>
+        <div className="Info"><Info /></div>
       </div>
     )
   }

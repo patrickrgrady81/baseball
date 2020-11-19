@@ -3,7 +3,7 @@ import React from 'react'
 
 function Nav() {
   return (
-    <div className='navbar'>
+    <div className='border navbar'>
       Navbar Component
     </div>
   )

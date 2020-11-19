@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 import Lineup from "./lineup/Lineup"
 
+import "./Teams.css"
+
 class Teams extends Component {
   render() {
     return (
