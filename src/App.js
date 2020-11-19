@@ -3,7 +3,7 @@ import Nav from "./components/nav/Nav"
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Nav />
       <Baseball />
     </div>

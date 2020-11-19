@@ -1,0 +1,11 @@
+.details > h3 {
+  margin: 0px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.details > p {
+  margin-top: 5px;
+  margin-left: 2px;
+  text-decoration: none;
+}
