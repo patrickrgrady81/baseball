@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter as Router, Route } from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
 import Nav from "./components/nav/Nav"
 import Home from "./components/pages/Home"
@@ -10,8 +10,10 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-        <Route path="/" exact component={Home} />
-        <Route path="/baseball" component={Baseball} />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/score" component={Baseball} />
+        </Switch>
       </div>
     </Router>
 

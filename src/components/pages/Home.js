@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <button><Link to="/baseball">Button</Link></button>
+        <button><Link to="/score">New Game</Link></button>
       </div>
     )
   }
