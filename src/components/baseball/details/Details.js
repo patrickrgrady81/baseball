@@ -7,9 +7,9 @@ class Details extends Component {
     return (
       <div className="details">
         <h3>Game Details</h3>
-        <p className="details-info">Location:</p>
-        <p className="details-info">Time:</p>
-        <p className="details-info">Weather:</p>
+        Location: <br />
+        Time: <br />
+        Weather:
       </div>
     )
   }

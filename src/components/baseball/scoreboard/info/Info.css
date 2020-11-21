@@ -1,0 +1,11 @@
+.info-layout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
