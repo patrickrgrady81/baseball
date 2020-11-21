@@ -1,5 +1,5 @@
 import { createStore } from "redux"
-import baseballReducer from "./baseball/BaseballReducer"
+import baseballReducer from "./Reducer"
 
 const store = createStore(baseballReducer)
 
