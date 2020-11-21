@@ -1,23 +1,22 @@
 import React, { Component } from 'react'
 
-class Outs extends Component {
+import { connect } from "react-redux"
 
-  constructor(props) {
-    super(props)
-  
-    this.state = {
-       outs: 0
-    }
-  }
-  
+class Outs extends Component {
 
   render() {
     return (
       <div>
-        OUTS: {this.state.outs}
+        OUTS: {this.props.outs}
       </div>
     )
   }
 }
 
-export default Outs
+const mapStateToProps = state => { 
+  return {
+    outs: state.outs
+  }
+}
+
+export default connect(mapStateToProps)(Outs)

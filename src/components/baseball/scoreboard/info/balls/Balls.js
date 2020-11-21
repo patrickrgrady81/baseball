@@ -1,23 +1,22 @@
 import React, { Component } from 'react'
 
-class Balls extends Component {
+import { connect } from "react-redux"
 
-  constructor(props) {
-    super(props)
-  
-    this.state = {
-       balls: 0
-    }
-  }
-  
+class Balls extends Component {
 
   render() {
     return (
       <div>
-        BALLS: {this.state.balls}
+        BALLS: {this.props.balls}
       </div>
     )
   }
 }
 
-export default Balls
+const mapStateToProps = state => { 
+  return {
+    balls: state.balls
+  }
+}
+
+export default connect(mapStateToProps)(Balls)
