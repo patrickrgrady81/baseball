@@ -1,0 +1,14 @@
+.rhe-layout {
+  display: flex;
+  justify-content: space-around;
+}
+
+.r-layout, .h-layout, .e-layout {
+  margin-top: 5px;
+  
+}
+
+.rhe-away, .rhe-home {
+  margin-top: 5px;
+  text-decoration: none;
+}
